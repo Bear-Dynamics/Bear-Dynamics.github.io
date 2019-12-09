@@ -1,0 +1,14 @@
+---
+layout: default
+title: Members
+---
+<div class="container">
+  <div class="row">
+  {% for member in site.members %}
+    <div class="col s6 m3">
+      <h6><a href="{{ member.url }}">{{ member.name }}</a></h6>
+      <p>{{ member.position }}</p>
+    </div>
+  {% endfor %}
+  </div>
+</div>

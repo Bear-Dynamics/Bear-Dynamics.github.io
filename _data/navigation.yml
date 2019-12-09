@@ -1,0 +1,10 @@
+- name: Home
+  url: /
+- name: Posts
+  url: /posts.html
+- name: Team
+  url: /team.html
+- name: Gallery
+  url: /gallery.html
+- name: Contacts
+  url: /contacts.html
